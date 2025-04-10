@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spam Email Classifier</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Spam Email Classifier</h1>
+    <textarea id="emailInput" placeholder="Paste your email content here..."></textarea>
+    <button onclick="checkSpam()">Check Email</button>
+    <div id="result"></div>
+
+    <h2>Sample Emails</h2>
+    <button onclick="loadSample('safe')">Load Safe Email</button>
+    <button onclick="loadSample('spam')">Load Spam Email</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
